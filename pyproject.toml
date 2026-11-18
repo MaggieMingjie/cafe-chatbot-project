@@ -1,0 +1,13 @@
+[project]
+name = "cafe-chatbot-nlu"
+version = "0.1.0"
+description = "Bilingual and code-switched coffee-shop dialogue understanding experiments"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

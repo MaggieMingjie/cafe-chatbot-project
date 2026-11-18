@@ -1,0 +1,894 @@
+[
+  {
+    "utterance": "Could you clarify the pricing for a 小杯 Hot Espresso with 杏仁奶 and a single extra shot of espresso?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I need to cancel my four 南瓜香料拿铁 order.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I'll try the 摩卡. 大杯, hot, with 燕麦奶 and whipped cream.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Please add an 额外浓缩咖啡 to strengthen the coffee character.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much would a 小杯 脏抹茶 cost?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I'll try the Lavender Latte. 中杯, hot, with 燕麦奶 and half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Change the sweetness of my 小杯 Hot 拿铁 to Less sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "推荐 your best seller.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Please include a small portion of 燕麦奶 served separately.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Exquisite. Prepare a 大杯 Iced version with 燕麦奶, no added sugar, and include the edible jasmine blossom garnish for visual elegance.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I want it fully sugar‑free, with a thin slice of 柠檬 for refreshment.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "For someone who appreciates delicate, aromatic coffee profiles, what would you suggest as an 优雅选择?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Do you have 杏仁奶?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Hey there.",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "I ordered a 中杯 Iced 拿铁, but I want to change the milk to 杏仁奶.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Given the warm weather, what would you thoughtfully recommend as a revitalizing non-caffeinated alternative with herbal complexity?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Do you have anything with caramel?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Can you make that a 大杯 instead? I need the extra caffeine today.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Add a subtle vanilla bean infusion to the Latte.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I should be grateful if you would inform me of the price for a 中杯 hot brown butter latte with 燕麦奶.",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I'll take a 双份浓缩咖啡.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a 大杯 Hot Chocolate with whipped cream?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "What flavors of syrup do you have?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Cancel my 中杯 美式。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Do you have 卡布奇诺 available with 燕麦奶?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I need to cancel my reservation for a 中杯 Hot Mocha with 豆奶, whipped cream, and caramel drizzle.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Change my 摩卡 to 大杯.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Maybe a 中杯 拿铁.",
+    "intent": "order"
+  },
+  {
+    "utterance": "What's the difference between a Cold Brew and an Iced 美式?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Wait, make one of them 中杯 instead.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Cancel it for now.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Yes, use 燕麦奶 and add an extra shot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much is a 卡布奇诺?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Alright, I'll try a 中杯 one.",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要三杯大杯冰燕麦拿铁，No sugar。",
+    "intent": "order"
+  },
+  {
+    "utterance": "This resonates profoundly with my current disposition. I shall commission a 大杯 iteration of this infusion, expressly requesting the omission of any supplementary sweetening agents beyond its intrinsic botanical sweetness.",
+    "intent": "order"
+  },
+  {
+    "utterance": "What is the precise financial implication for a 中杯 Cold Brew enhanced with 无糖糖浆 and a delicate honey drizzle?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I ordered a 中杯 Hot 拿铁 earlier. Please make it a double shot instead of a single.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much is a 中杯 抹茶拿铁 with 燕麦奶?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Do you have any non-dairy options?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Switch my 大杯 Iced 美式 to Hot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要一杯大杯热卡布奇诺 with Almond milk。",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'll take that, hot please, with half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要三杯大杯热美式，No sugar。",
+    "intent": "order"
+  },
+  {
+    "utterance": "What milk options are available for 拿铁?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I would like a 大杯 dark chocolate mocha with 燕麦奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要三杯小杯热摩卡，Regular sugar and 奶油。",
+    "intent": "order"
+  },
+  {
+    "utterance": "Please add a light dusting of 香草粉.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Yes, change it to 燕麦奶 please.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "What's the price of a 中杯 Hot 燕麦拿铁 with Extra shot?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I would like to order this with 无糖.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Could you recommend something sweet but still coffee-forward?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Iced with 杏仁奶.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I prefer it iced, with 少糖.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you sell 抹茶 drinks?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Yes, make it 大杯 and hot.",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要一杯Small热拿铁，No sugar。",
+    "intent": "order"
+  },
+  {
+    "utterance": "Recommend a sweet and cold drink with 奶油.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Great. I'll have a 中杯 Hot 拿铁 with 燕麦奶 and vanilla syrup.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a 小杯 Iced 摩卡 with 奶油?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I need to cancel the 大杯 iced caramel latte I ordered earlier today.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Add 奶油 to my Iced 摩卡.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "What do you recommend for someone who likes sweet drinks?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "May I ask the price of a 大杯 iced hazelnut latte with 椰奶?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "To elevate this ritual further, I respectfully request that the lemon twists undergo expression directly over the espresso surface immediately prior to presentation, thereby awakening their essential oils and deepening the aromatic dialogue.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Could you suggest a full-bodied yet smooth coffee that avoids 苦涩?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "How much is a 中杯 馥芮白 with 杏仁奶?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I'll go with the classic. 中杯 Hot 拿铁 with whole milk and regular sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I regret to inform you that I must rescind my earlier request for a 中杯 Iced Cappuccino with 杏仁奶 and 肉桂 topping.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "How much would the total be for all three drinks?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Are add-ons available for Hot 美式 with 杏仁奶?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Iced, and make it no sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Please add 一份浓缩 to my 大杯 Hot 拿铁.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要一杯大杯热卡布奇诺，Half sugar。",
+    "intent": "order"
+  },
+  {
+    "utterance": "Actually, could you recommend a different pastry? Maybe something sweet?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Actually, switch the milk to 杏仁奶 and add a light caramel drizzle on top. Keep sweetness at 正常糖.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Good afternoon. 作为对你们技术最精准的浓缩咖啡感兴趣的顾客，你们咖啡师团队的代表性作品是什么？",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "Cancel my 小杯 Iced 美式。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Enhance the oat milk latte with a subtle 香草糖浆 infusion to complement its inherent sweetness profile.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "As someone who appreciates complex spice profiles without overwhelming sweetness, what beverage would you 热情地 endorse from your autumn collection?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Half sugar for all of them.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you offer any type of milk that's both lactose-free and low-fat?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Make one of them Iced instead of Hot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Let me try a 短笛拿铁.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'll try a 中杯 Hot 摩卡 with 杏仁奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Hi, what would you recommend for someone who wants to try an espresso drink but doesn't like it too bitter?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "I'm looking for a caffeine-free option for the afternoon. Any recommendations?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Given my predilection for unadulterated coffee expressions, I wish to commission a 小杯 Iced Americano utilizing no dairy or alternative milk components whatsoever.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Can you recommend a warm drink with 杏仁奶?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Change the milk type of my 小杯 Iced 拿铁 from 全脂 to 脱脂奶.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Seeking a calming, non-caffeinated evening infusion with floral notes and subtle sweetness derived solely from botanicals. 你们会用心组合一款风味协调的饮品吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Recommend a light and sweet drink with 燕麦奶.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Recommend a refreshing drink with Less sugar.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "小杯.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我可以要一杯Medium热卡布奇诺 with Extra shot?",
+    "intent": "order"
+  },
+  {
+    "utterance": "Warm greetings. 点单前可以说明一下，你们的茶道级抹茶拿铁和普通抹茶拿铁有什么区别吗？",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "Do you have 短笛拿铁?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Instead, I would like four 小杯 iced americanos with 豆奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "May I inquire about the cost of a 大杯 iced cinnamon dolce mocha with 燕麦奶?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "A splendid afternoon. 作为第一次来的顾客，我想了解你们最 celebrated seasonal creation that showcases exceptional artistry.",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "What's the total for that?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "That sounds nice, I'll get a 中杯 one.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'm thinking about getting a 大杯 Iced 卡布奇诺 with an extra shot and light foam, please.",
+    "intent": "order"
+  },
+  {
+    "utterance": "May I ask the price of a 大杯 iced cinnamon dolce latte with 椰奶?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Iced with 豆奶 and half sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Modify my 大杯 Iced 拿铁 to change sweetness to Regular sugar and milk to 杏仁奶.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I would like to place an order for this drink.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I need to cancel my pre‑ordered 大杯 Iced Vanilla Latte.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "How much are they in total?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Please include a small portion of 椰奶 separately.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much for a 小杯 燕麦拿铁?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Do you have 大杯 Iced 摩卡 with 脱脂奶 on the menu?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I'll take that, with half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I want a 大杯 Iced 燕麦拿铁.",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要三杯小杯热拿铁，Non-fat milk。",
+    "intent": "order"
+  },
+  {
+    "utterance": "Could you tell me how much a 中杯 hot salted caramel latte with 椰奶 costs?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Yes, make it half sugar and add an extra shot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you have 摩卡?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Recommend a smooth drink with 全脂奶 and Half sugar.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "What is the precise financial implication for a 小杯 Hot Dirty Chai prepared with 椰奶, no sugar, and a single extra espresso shot?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Instead, I would like four 小杯 iced americanos with 杏仁奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Add 奶油 too.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "杏仁奶 and extra foam.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Could you recommend something with 燕麦奶 that's not too strong?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "I'd like three drinks: a 大杯 Hot 拿铁 with whole milk, a 中杯 Iced 美式 with 燕麦奶 and half sugar, and a 小杯 Hot 卡布奇诺 with an extra shot.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a 大杯 抹茶拿铁?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I would like to order a 中杯 serving of this pour-over coffee.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Instead, I would like three 小杯 iced americanos with 椰奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Do you have any seasonal drinks for fall?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Make my 小杯 Hot 摩卡 Iced.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Make my 摩卡 less sweet.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you offer any sugar-free syrups for your lattes?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I would like to order this with 半糖.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a 小杯 Iced 摩卡 with 杏仁奶 and 奶油?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I'll try that. 中杯 Hot 拿铁 with vanilla, 燕麦奶, and half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'll take a 大杯 Hot 美式 with No sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Hi there!",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "我想要一杯小杯冰美式，Half sugar。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要三杯小杯冰拿铁，加香草糖浆 and Half sugar。",
+    "intent": "order"
+  },
+  {
+    "utterance": "Cancel my 大杯 Iced 拿铁。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I'll have a 大杯 one with 燕麦奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Add an 浓缩 to my 小杯 Hot 美式.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much for two 大杯 Iced 美式?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Can you recommend a dairy‑free, sugar‑free beverage that still feels 奢华有满足感?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Actually, could you make it a 中杯 instead of Large? 我觉得这个容量刚好适合散步，不想拿太重的东西。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'll try it. 大杯, hot, with 燕麦奶 and an extra shot.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Please add 奶油 to my 大杯 Hot 摩卡.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you serve Iced 美式?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "小杯 and iced.",
+    "intent": "order"
+  },
+  {
+    "utterance": "May I inquire about the cost of a 大杯 iced vanilla bean mocha with 豆奶?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I prefer it hot, with 无糖.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I must cancel the 大杯 iced caramel macchiato I ordered earlier today.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Hello, can you help me?",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "Cancel that drink, please.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I'd like a 中杯 拿铁.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Hey, I'm ready.",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "Change the temperature of my 大杯 拿铁 to Iced.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "First, could you switch the size to 大杯 and make it iced instead of hot?",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Could you introduce your 手工咖啡 selections that highlight complex and balanced flavor profiles?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I'd like to place an order for a 热卡布奇诺, 中杯 size with 全脂牛奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I changed my mind again. Cancel the 香草糖浆, but keep the extra shot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Sounds wonderful. 中杯, hot, with 燕麦奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Could you please cancel that last drink order? I'm going to start over.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I'll try the 馥芮白. 中杯, hot, with whole milk and no sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "一杯大杯Latte多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Yes, 杏仁奶 please.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Remove the order for a 中杯 Hot 燕麦拿铁。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "As an individual seeking botanical serenity without stimulant influence, might you thoughtfully propose a hot infusion that artfully weaves floral elegance with gentle herbal undertones?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Could you elucidate the ingredient provenance and steeping methodology for your 'Midnight Berry Herbal Infusion'? 我很看重有机来源与制作品质。",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Forget it, cancel both drinks.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Yes, could you add a splash of 无糖香草 syrup to enhance the flavor?",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Please add a light drizzle of 蜂蜜 atop the foam.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Yes, add whipped cream and make it half sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Update my 大杯 Hot 摩卡 to have Regular sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Cancel that drink.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I must respectfully rescind my earlier directive concerning a 中杯 Hot Chai Latte with 椰奶, as my palate has pivoted toward a more minimalist expression this afternoon.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Add 奶油 to my 大杯 摩卡.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I would like it served hot, with 半糖.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you have 脱脂奶 for lattes?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "我想要一杯大杯冰摩卡，加杏仁奶，Less sugar。",
+    "intent": "order"
+  },
+  {
+    "utterance": "Instead, I would like a 小杯 hot cortado with 杏仁奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I ordered a 小杯 Hot 卡布奇诺, but I want to change it to a 馥芮白.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Make it a 中杯, please.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'd like two drinks: a 小杯 Iced 拿铁 with whole milk and half sugar, and a 中杯 Hot 卡布奇诺 with an extra shot and no sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'll take that, and add a shot of vanilla.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I would like to explore your 高端浓缩饮品 for discerning palates.",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "我要一杯大杯冰美式，加脱脂奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "Captivating concept. Prepare a 中杯 Iced rendition with the coconut ice cream base, toasted coconut flakes, and omit the lime zest for purity of flavor.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a 大杯 Iced 燕麦拿铁 with Half sugar and 奶油?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Do you have any caffeine-free alternatives for your 抹茶拿铁?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Indeed. I am now intrigued by the prospect of a 中杯 Iced Matcha Latte prepared with 椰奶 and adorned with a minimalist matcha dusting upon the foam surface.",
+    "intent": "order"
+  },
+  {
+    "utterance": "What is the financial implication for a 中杯 Cold Brew enhanced with 香草糖浆 and a delicate 蜂蜜 drizzle?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "How much is an Extra shot?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "How much extra is it for a splash of 杏仁奶 in a regular black coffee?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Please cancel my two 中杯 Hot 美式 with Half sugar.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Give me a 大杯 Iced 焦糖拿铁.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Actually, I'll just take a 小杯 Black Coffee instead.",
+    "intent": "order"
+  },
+  {
+    "utterance": "What's a popular iced drink here?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Can I change my 小杯 Hot 美式 to have Extra shot?",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I need to remove the 香草糖浆 from my Iced 摩卡.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'll take that, with half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I ordered a 小杯 Hot Chocolate, but can I upgrade it to 大杯?",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'll take that, and add marshmallows and whipped cream.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a 小杯 馥芮白?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "What's the strongest coffee you have?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Place an order for a 小杯 Hot Cappuccino with 全脂牛奶 and regular sweetness.",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要一杯中杯热拿铁，加全脂奶 and Half sugar。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要两杯大杯热卡布奇诺，加脱脂奶 and Regular sugar。",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a 大杯 Iced 美式 with an extra shot?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Please add an 额外浓缩咖啡 to enhance flavor depth.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Actually, change it to 大杯 too.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I need to cancel my 中杯 Hot 摩卡. 我身体不太舒服。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I should be grateful if you would inform me of the price for a 中杯 hot brown butter latte with 燕麦奶.",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I would like a 大杯 salted caramel mocha with 椰奶.",
+    "intent": "order"
+  },
+  {
+    "utterance": "我想要一杯小杯热摩卡，加脱脂奶 and 奶油。",
+    "intent": "order"
+  },
+  {
+    "utterance": "I must rescind my pending order for a 小杯 Hot Americano with no milk and no sugar.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Do you have anything with Extra shot by default?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Yes, a sprinkle of 肉桂粉 on top would be perfect.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Hey, I'd like a 中杯 Iced 拿铁 with an extra shot and a pump of caramel, but no sugar otherwise.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Actually, make it 大杯 and No sugar instead.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'll take two 小杯 Iced Americanos with 椰奶 instead.",
+    "intent": "order"
+  },
+  {
+    "utterance": "May I ask the price of a 大杯 iced hazelnut latte with 椰奶?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "What's the price difference between 小杯 and 大杯 摩卡?",
+    "intent": "inquire_price"
+  }
+]

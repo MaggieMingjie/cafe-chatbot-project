@@ -1,0 +1,6501 @@
+[
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "clarify",
+      "the",
+      "pricing",
+      "for",
+      "a",
+      "Small",
+      "Hot",
+      "Espresso",
+      "with",
+      "almond",
+      "milk",
+      "and",
+      "a",
+      "single",
+      "extra",
+      "shot",
+      "of",
+      "espresso"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "need",
+      "to",
+      "cancel",
+      "my",
+      "four",
+      "Pumpkin",
+      "Spice",
+      "Lattes",
+      "order"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-quantity",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "try",
+      "the",
+      "Mocha",
+      "Large",
+      "hot",
+      "with",
+      "oat",
+      "milk",
+      "and",
+      "whipped",
+      "cream"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-drink_name",
+      "B-size",
+      "B-temperature",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Please",
+      "add",
+      "an",
+      "extra",
+      "shot",
+      "of",
+      "espresso",
+      "for",
+      "a",
+      "richer",
+      "taste"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "would",
+      "a",
+      "Small",
+      "Dirty",
+      "Matcha",
+      "cost"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "try",
+      "the",
+      "Lavender",
+      "Latte",
+      "Medium",
+      "hot",
+      "with",
+      "oat",
+      "milk",
+      "and",
+      "half",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-drink_name",
+      "I-drink_name",
+      "B-size",
+      "B-temperature",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Change",
+      "the",
+      "sweetness",
+      "of",
+      "my",
+      "Small",
+      "Hot",
+      "Latte",
+      "to",
+      "Less",
+      "Sugar"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Recommend",
+      "your",
+      "best",
+      "seller"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Please",
+      "include",
+      "a",
+      "small",
+      "portion",
+      "of",
+      "oat",
+      "milk",
+      "served",
+      "separately"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Exquisite",
+      "Prepare",
+      "a",
+      "Large",
+      "Iced",
+      "version",
+      "with",
+      "oat",
+      "milk",
+      "no",
+      "added",
+      "sugar",
+      "and",
+      "include",
+      "the",
+      "edible",
+      "jasmine",
+      "blossom",
+      "garnish",
+      "for",
+      "visual",
+      "elegance"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "want",
+      "it",
+      "fully",
+      "sugarfree",
+      "with",
+      "a",
+      "thin",
+      "slice",
+      "of",
+      "lemon",
+      "for",
+      "a",
+      "refreshing",
+      "touch"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "For",
+      "someone",
+      "who",
+      "enjoys",
+      "floral",
+      "and",
+      "delicate",
+      "coffee",
+      "flavors",
+      "what",
+      "would",
+      "you",
+      "suggest",
+      "as",
+      "an",
+      "elegant",
+      "choice"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "Almond",
+      "Milk"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hey",
+      "there"
+    ],
+    "intent": "greeting",
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "ordered",
+      "a",
+      "Medium",
+      "Iced",
+      "Latte",
+      "but",
+      "I",
+      "want",
+      "to",
+      "change",
+      "the",
+      "milk",
+      "to",
+      "almond"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type"
+    ]
+  },
+  {
+    "tokens": [
+      "Given",
+      "the",
+      "warm",
+      "weather",
+      "what",
+      "would",
+      "you",
+      "thoughtfully",
+      "recommend",
+      "as",
+      "a",
+      "revitalizing",
+      "noncaffeinated",
+      "alternative",
+      "with",
+      "herbal",
+      "complexity"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "anything",
+      "with",
+      "caramel"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "make",
+      "that",
+      "a",
+      "Large",
+      "instead",
+      "I",
+      "need",
+      "the",
+      "extra",
+      "caffeine",
+      "today"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Add",
+      "a",
+      "subtle",
+      "vanilla",
+      "bean",
+      "infusion",
+      "to",
+      "the",
+      "Latte"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "should",
+      "be",
+      "grateful",
+      "if",
+      "you",
+      "would",
+      "inform",
+      "me",
+      "of",
+      "the",
+      "price",
+      "for",
+      "a",
+      "medium",
+      "hot",
+      "brown",
+      "butter",
+      "latte",
+      "with",
+      "oat",
+      "milk"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "take",
+      "a",
+      "Double",
+      "Espresso"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Large",
+      "Hot",
+      "Chocolate",
+      "with",
+      "whipped",
+      "cream"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "What",
+      "flavors",
+      "of",
+      "syrup",
+      "do",
+      "you",
+      "have"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cancel",
+      "my",
+      "Medium",
+      "Americano"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "Cappuccino",
+      "available",
+      "with",
+      "Oat",
+      "Milk"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-drink_name",
+      "O",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "need",
+      "to",
+      "cancel",
+      "my",
+      "reservation",
+      "for",
+      "a",
+      "Medium",
+      "Hot",
+      "Mocha",
+      "with",
+      "soy",
+      "milk",
+      "whipped",
+      "cream",
+      "and",
+      "caramel",
+      "drizzle"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Change",
+      "my",
+      "Mocha",
+      "to",
+      "Large"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-drink_name",
+      "O",
+      "B-size"
+    ]
+  },
+  {
+    "tokens": [
+      "Maybe",
+      "a",
+      "Medium",
+      "Latte"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "What's",
+      "the",
+      "difference",
+      "between",
+      "a",
+      "Cold",
+      "Brew",
+      "and",
+      "an",
+      "Iced",
+      "Americano"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Wait",
+      "make",
+      "one",
+      "of",
+      "them",
+      "Medium",
+      "instead"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cancel",
+      "it",
+      "for",
+      "now"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yes",
+      "use",
+      "oat",
+      "milk",
+      "and",
+      "add",
+      "an",
+      "extra",
+      "shot"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Cappuccino"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Alright",
+      "I'll",
+      "try",
+      "a",
+      "Medium",
+      "one"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "want",
+      "three",
+      "Large",
+      "Iced",
+      "Oat",
+      "Latte",
+      "with",
+      "No",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "This",
+      "resonates",
+      "profoundly",
+      "with",
+      "my",
+      "current",
+      "disposition",
+      "I",
+      "shall",
+      "commission",
+      "a",
+      "Large",
+      "iteration",
+      "of",
+      "this",
+      "infusion",
+      "expressly",
+      "requesting",
+      "the",
+      "omission",
+      "of",
+      "any",
+      "supplementary",
+      "sweetening",
+      "agents",
+      "beyond",
+      "its",
+      "intrinsic",
+      "botanical",
+      "sweetness"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "precise",
+      "financial",
+      "implication",
+      "for",
+      "a",
+      "Medium",
+      "Cold",
+      "Brew",
+      "enhanced",
+      "with",
+      "sugarfree",
+      "syrup",
+      "and",
+      "a",
+      "delicate",
+      "honey",
+      "drizzle"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "ordered",
+      "a",
+      "Medium",
+      "Hot",
+      "Latte",
+      "earlier",
+      "Please",
+      "make",
+      "it",
+      "a",
+      "double",
+      "shot",
+      "instead",
+      "of",
+      "a",
+      "single"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Medium",
+      "Matcha",
+      "Latte",
+      "with",
+      "oat",
+      "milk"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "any",
+      "nondairy",
+      "options"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Switch",
+      "my",
+      "Large",
+      "Iced",
+      "Americano",
+      "to",
+      "Hot"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-size",
+      "O",
+      "B-drink_name",
+      "O",
+      "B-temperature"
+    ]
+  },
+  {
+    "tokens": [
+      "I'd",
+      "like",
+      "a",
+      "Large",
+      "Hot",
+      "Cappuccino",
+      "with",
+      "Almond",
+      "Milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "take",
+      "that",
+      "hot",
+      "please",
+      "with",
+      "half",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Three",
+      "Large",
+      "Hot",
+      "Americanos",
+      "with",
+      "No",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "What",
+      "milk",
+      "options",
+      "are",
+      "available",
+      "for",
+      "Latte"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "would",
+      "like",
+      "a",
+      "large",
+      "salted",
+      "caramel",
+      "mocha",
+      "with",
+      "coconut",
+      "milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "have",
+      "three",
+      "Small",
+      "Hot",
+      "Mochas",
+      "with",
+      "Regular",
+      "Sugar",
+      "and",
+      "Whipped",
+      "Cream"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Please",
+      "add",
+      "a",
+      "light",
+      "dusting",
+      "of",
+      "vanilla",
+      "powder"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Yes",
+      "change",
+      "it",
+      "to",
+      "Oat",
+      "milk",
+      "please"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "What's",
+      "the",
+      "price",
+      "of",
+      "a",
+      "Medium",
+      "Hot",
+      "Oat",
+      "Latte",
+      "with",
+      "Extra",
+      "Shot"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "would",
+      "like",
+      "to",
+      "order",
+      "this",
+      "with",
+      "no",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "recommend",
+      "something",
+      "sweet",
+      "but",
+      "still",
+      "coffeeforward"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Iced",
+      "with",
+      "Almond",
+      "milk"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "B-temperature",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "prefer",
+      "it",
+      "iced",
+      "with",
+      "less",
+      "sugar",
+      "than",
+      "usual"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "sell",
+      "Matcha",
+      "drinks"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yes",
+      "make",
+      "it",
+      "Large",
+      "and",
+      "hot"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O",
+      "B-temperature"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "want",
+      "a",
+      "Small",
+      "Hot",
+      "Latte",
+      "with",
+      "No",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Recommend",
+      "a",
+      "sweet",
+      "and",
+      "cold",
+      "drink",
+      "with",
+      "Whipped",
+      "Cream"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Great",
+      "I'll",
+      "have",
+      "a",
+      "Medium",
+      "Hot",
+      "Latte",
+      "with",
+      "oat",
+      "milk",
+      "and",
+      "vanilla",
+      "syrup"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Small",
+      "Iced",
+      "Mocha",
+      "with",
+      "Whipped",
+      "Cream"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "need",
+      "to",
+      "cancel",
+      "the",
+      "large",
+      "iced",
+      "caramel",
+      "latte",
+      "I",
+      "ordered",
+      "earlier",
+      "this",
+      "afternoon"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Add",
+      "Whipped",
+      "Cream",
+      "to",
+      "my",
+      "Iced",
+      "Mocha"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "B-temperature",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "What",
+      "do",
+      "you",
+      "recommend",
+      "for",
+      "someone",
+      "who",
+      "likes",
+      "sweet",
+      "drinks"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "May",
+      "I",
+      "ask",
+      "the",
+      "price",
+      "of",
+      "a",
+      "large",
+      "iced",
+      "cinnamon",
+      "dolce",
+      "latte",
+      "with",
+      "coconut",
+      "milk"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "To",
+      "elevate",
+      "this",
+      "ritual",
+      "further",
+      "I",
+      "respectfully",
+      "request",
+      "that",
+      "the",
+      "lemon",
+      "twists",
+      "undergo",
+      "expression",
+      "directly",
+      "over",
+      "the",
+      "espresso",
+      "surface",
+      "immediately",
+      "prior",
+      "to",
+      "presentation",
+      "thereby",
+      "awakening",
+      "their",
+      "essential",
+      "oils",
+      "and",
+      "deepening",
+      "the",
+      "aromatic",
+      "dialogue"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "suggest",
+      "a",
+      "fullbodied",
+      "yet",
+      "smooth",
+      "coffee",
+      "that",
+      "avoids",
+      "harsh",
+      "bitterness",
+      "and",
+      "sharp",
+      "acidity"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Medium",
+      "Flat",
+      "White",
+      "with",
+      "almond",
+      "milk"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "go",
+      "with",
+      "the",
+      "classic",
+      "Medium",
+      "Hot",
+      "Latte",
+      "with",
+      "whole",
+      "milk",
+      "and",
+      "regular",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "regret",
+      "to",
+      "inform",
+      "you",
+      "that",
+      "I",
+      "must",
+      "rescind",
+      "my",
+      "earlier",
+      "request",
+      "for",
+      "a",
+      "Medium",
+      "Iced",
+      "Cappuccino",
+      "with",
+      "almond",
+      "milk",
+      "and",
+      "cinnamon",
+      "topping"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-add_on",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "would",
+      "the",
+      "total",
+      "be",
+      "for",
+      "all",
+      "three",
+      "drinks"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-quantity",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Are",
+      "addons",
+      "available",
+      "for",
+      "Hot",
+      "Americano",
+      "with",
+      "Almond",
+      "Milk"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Iced",
+      "and",
+      "make",
+      "it",
+      "no",
+      "sugar"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "B-temperature",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Please",
+      "add",
+      "Extra",
+      "Shot",
+      "to",
+      "my",
+      "Large",
+      "Hot",
+      "Latte"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "want",
+      "a",
+      "Large",
+      "Hot",
+      "Cappuccino",
+      "with",
+      "Half",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Actually",
+      "could",
+      "you",
+      "recommend",
+      "a",
+      "different",
+      "pastry",
+      "Maybe",
+      "something",
+      "sweet"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Actually",
+      "switch",
+      "the",
+      "milk",
+      "to",
+      "almond",
+      "and",
+      "add",
+      "a",
+      "light",
+      "caramel",
+      "drizzle",
+      "on",
+      "top",
+      "Keep",
+      "sweetness",
+      "at",
+      "regular",
+      "level"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Good",
+      "afternoon",
+      "As",
+      "a",
+      "discerning",
+      "visitor",
+      "interested",
+      "in",
+      "your",
+      "most",
+      "technically",
+      "precise",
+      "espresso",
+      "preparation",
+      "what",
+      "would",
+      "you",
+      "highlight",
+      "as",
+      "your",
+      "barista",
+      "team's",
+      "signature",
+      "expression"
+    ],
+    "intent": "greeting",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cancel",
+      "my",
+      "Small",
+      "Iced",
+      "Americano"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Enhance",
+      "the",
+      "oat",
+      "milk",
+      "latte",
+      "with",
+      "a",
+      "subtle",
+      "vanilla",
+      "syrup",
+      "infusion",
+      "to",
+      "complement",
+      "its",
+      "inherent",
+      "sweetness",
+      "profile"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "As",
+      "someone",
+      "who",
+      "appreciates",
+      "complex",
+      "spice",
+      "profiles",
+      "without",
+      "overwhelming",
+      "sweetness",
+      "what",
+      "beverage",
+      "would",
+      "you",
+      "passionately",
+      "endorse",
+      "from",
+      "your",
+      "autumn",
+      "collection"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Half",
+      "sugar",
+      "for",
+      "all",
+      "of",
+      "them"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "B-sweetness",
+      "I-sweetness",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "offer",
+      "any",
+      "type",
+      "of",
+      "milk",
+      "that's",
+      "both",
+      "lactosefree",
+      "and",
+      "lowfat"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Make",
+      "one",
+      "of",
+      "them",
+      "Iced",
+      "instead",
+      "of",
+      "Hot"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Let",
+      "me",
+      "try",
+      "a",
+      "Cortado"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "try",
+      "a",
+      "Medium",
+      "Hot",
+      "Mocha",
+      "with",
+      "Almond",
+      "Milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hi",
+      "what",
+      "would",
+      "you",
+      "recommend",
+      "for",
+      "someone",
+      "who",
+      "wants",
+      "to",
+      "try",
+      "an",
+      "espresso",
+      "drink",
+      "but",
+      "doesn't",
+      "like",
+      "it",
+      "too",
+      "bitter"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'm",
+      "looking",
+      "for",
+      "a",
+      "caffeinefree",
+      "option",
+      "for",
+      "the",
+      "afternoon",
+      "Any",
+      "recommendations"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Given",
+      "my",
+      "predilection",
+      "for",
+      "unadulterated",
+      "coffee",
+      "expressions",
+      "I",
+      "wish",
+      "to",
+      "commission",
+      "a",
+      "Small",
+      "Iced",
+      "Americano",
+      "utilizing",
+      "no",
+      "dairy",
+      "or",
+      "alternative",
+      "milk",
+      "components",
+      "whatsoever"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "recommend",
+      "a",
+      "warm",
+      "drink",
+      "with",
+      "Almond",
+      "Milk"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Change",
+      "the",
+      "milk",
+      "type",
+      "of",
+      "my",
+      "Small",
+      "Iced",
+      "Latte",
+      "from",
+      "Whole",
+      "to",
+      "Nonfat"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "O",
+      "B-milk_type"
+    ]
+  },
+  {
+    "tokens": [
+      "Seeking",
+      "a",
+      "calming",
+      "noncaffeinated",
+      "evening",
+      "infusion",
+      "with",
+      "floral",
+      "notes",
+      "and",
+      "subtle",
+      "sweetness",
+      "derived",
+      "solely",
+      "from",
+      "botanicals",
+      "What",
+      "would",
+      "you",
+      "thoughtfully",
+      "compose",
+      "with",
+      "intentional",
+      "synergy"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Recommend",
+      "a",
+      "light",
+      "and",
+      "sweet",
+      "drink",
+      "with",
+      "Oat",
+      "Milk"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Recommend",
+      "a",
+      "refreshing",
+      "drink",
+      "with",
+      "Less",
+      "Sugar"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Small"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "B-size"
+    ]
+  },
+  {
+    "tokens": [
+      "Can",
+      "I",
+      "get",
+      "a",
+      "Medium",
+      "Hot",
+      "Cappuccino",
+      "with",
+      "Extra",
+      "Shot"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Warm",
+      "greetings",
+      "Before",
+      "proceeding",
+      "could",
+      "you",
+      "elucidate",
+      "the",
+      "distinguishing",
+      "characteristics",
+      "of",
+      "your",
+      "ceremonialgrade",
+      "Matcha",
+      "Latte",
+      "versus",
+      "standard",
+      "preparations"
+    ],
+    "intent": "greeting",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "Cortado"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Instead",
+      "I",
+      "would",
+      "like",
+      "three",
+      "small",
+      "iced",
+      "americanos",
+      "with",
+      "oat",
+      "milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "May",
+      "I",
+      "inquire",
+      "about",
+      "the",
+      "cost",
+      "of",
+      "a",
+      "large",
+      "iced",
+      "cinnamon",
+      "dolce",
+      "mocha",
+      "with",
+      "oat",
+      "milk"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "A",
+      "splendid",
+      "afternoon",
+      "As",
+      "a",
+      "firsttime",
+      "visitor",
+      "I'd",
+      "appreciate",
+      "insight",
+      "into",
+      "your",
+      "most",
+      "celebrated",
+      "seasonal",
+      "creation",
+      "that",
+      "showcases",
+      "exceptional",
+      "artistry"
+    ],
+    "intent": "greeting",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "What's",
+      "the",
+      "total",
+      "for",
+      "that"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "That",
+      "sounds",
+      "nice",
+      "I'll",
+      "get",
+      "a",
+      "Medium",
+      "one"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'm",
+      "thinking",
+      "about",
+      "getting",
+      "a",
+      "Large",
+      "Iced",
+      "Cappuccino",
+      "with",
+      "an",
+      "extra",
+      "shot",
+      "and",
+      "light",
+      "foam",
+      "please"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "May",
+      "I",
+      "ask",
+      "the",
+      "price",
+      "of",
+      "a",
+      "large",
+      "iced",
+      "hazelnut",
+      "mocha",
+      "with",
+      "oat",
+      "milk"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Iced",
+      "with",
+      "Soy",
+      "milk",
+      "and",
+      "half",
+      "sugar"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "B-temperature",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Modify",
+      "my",
+      "Large",
+      "Iced",
+      "Latte",
+      "to",
+      "change",
+      "sweetness",
+      "to",
+      "Regular",
+      "Sugar",
+      "and",
+      "milk",
+      "to",
+      "Almond"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O",
+      "O",
+      "O",
+      "B-milk_type"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "would",
+      "like",
+      "to",
+      "place",
+      "an",
+      "order",
+      "for",
+      "this",
+      "particular",
+      "drink"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "need",
+      "to",
+      "cancel",
+      "my",
+      "preordered",
+      "Large",
+      "Iced",
+      "Vanilla",
+      "Latte"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "are",
+      "they",
+      "in",
+      "total"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Please",
+      "include",
+      "a",
+      "small",
+      "portion",
+      "of",
+      "coconut",
+      "milk",
+      "separately"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "for",
+      "a",
+      "Small",
+      "Oat",
+      "Latte"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "Large",
+      "Iced",
+      "Mocha",
+      "with",
+      "Nonfat",
+      "Milk",
+      "on",
+      "the",
+      "menu"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "take",
+      "that",
+      "with",
+      "half",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "want",
+      "a",
+      "Large",
+      "Iced",
+      "Oat",
+      "Latte"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I'd",
+      "like",
+      "three",
+      "Small",
+      "Hot",
+      "Lattes",
+      "with",
+      "Nonfat",
+      "Milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "tell",
+      "me",
+      "how",
+      "much",
+      "a",
+      "medium",
+      "hot",
+      "salted",
+      "caramel",
+      "latte",
+      "with",
+      "coconut",
+      "milk",
+      "costs"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yes",
+      "make",
+      "it",
+      "half",
+      "sugar",
+      "and",
+      "add",
+      "an",
+      "extra",
+      "shot"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "Mocha"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Recommend",
+      "a",
+      "smooth",
+      "drink",
+      "with",
+      "Whole",
+      "Milk",
+      "and",
+      "Half",
+      "Sugar"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "precise",
+      "financial",
+      "implication",
+      "for",
+      "a",
+      "Small",
+      "Hot",
+      "Dirty",
+      "Chai",
+      "prepared",
+      "with",
+      "coconut",
+      "milk",
+      "no",
+      "sugar",
+      "and",
+      "a",
+      "single",
+      "extra",
+      "espresso",
+      "shot"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Instead",
+      "I",
+      "would",
+      "like",
+      "three",
+      "small",
+      "iced",
+      "americanos",
+      "with",
+      "coconut",
+      "milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Add",
+      "Whipped",
+      "Cream",
+      "too"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Almond",
+      "milk",
+      "and",
+      "extra",
+      "foam"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "B-milk_type",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "recommend",
+      "something",
+      "with",
+      "Oat",
+      "Milk",
+      "that's",
+      "not",
+      "too",
+      "strong"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'd",
+      "like",
+      "three",
+      "drinks",
+      "a",
+      "Large",
+      "Hot",
+      "Latte",
+      "with",
+      "whole",
+      "milk",
+      "a",
+      "Medium",
+      "Iced",
+      "Americano",
+      "with",
+      "oat",
+      "milk",
+      "and",
+      "half",
+      "sugar",
+      "and",
+      "a",
+      "Small",
+      "Hot",
+      "Cappuccino",
+      "with",
+      "an",
+      "extra",
+      "shot"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-quantity",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Large",
+      "Matcha",
+      "Latte"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "would",
+      "like",
+      "to",
+      "order",
+      "a",
+      "medium",
+      "serving",
+      "of",
+      "this",
+      "pourover",
+      "coffee"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Instead",
+      "I",
+      "would",
+      "like",
+      "four",
+      "small",
+      "iced",
+      "americanos",
+      "with",
+      "soy",
+      "milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "any",
+      "seasonal",
+      "drinks",
+      "for",
+      "fall"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Make",
+      "my",
+      "Small",
+      "Hot",
+      "Mocha",
+      "Iced"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name",
+      "B-temperature"
+    ]
+  },
+  {
+    "tokens": [
+      "Make",
+      "my",
+      "Mocha",
+      "less",
+      "sweet"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-drink_name",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "offer",
+      "any",
+      "sugarfree",
+      "syrups",
+      "for",
+      "your",
+      "lattes"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "would",
+      "like",
+      "to",
+      "order",
+      "this",
+      "with",
+      "half",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Small",
+      "Iced",
+      "Mocha",
+      "with",
+      "Almond",
+      "Milk",
+      "and",
+      "Whipped",
+      "Cream"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "try",
+      "that",
+      "Medium",
+      "Hot",
+      "Latte",
+      "with",
+      "vanilla",
+      "oat",
+      "milk",
+      "and",
+      "half",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "take",
+      "a",
+      "Large",
+      "Hot",
+      "Americano",
+      "with",
+      "No",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Hi",
+      "there"
+    ],
+    "intent": "greeting",
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'd",
+      "like",
+      "a",
+      "Small",
+      "Iced",
+      "Americano",
+      "with",
+      "Half",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Three",
+      "Small",
+      "Iced",
+      "Lattes",
+      "with",
+      "Vanilla",
+      "Syrup",
+      "and",
+      "Half",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Cancel",
+      "my",
+      "Large",
+      "Iced",
+      "Latte"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "have",
+      "a",
+      "Large",
+      "one",
+      "with",
+      "oat",
+      "milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Add",
+      "an",
+      "Extra",
+      "Shot",
+      "to",
+      "my",
+      "Small",
+      "Hot",
+      "Americano"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "for",
+      "two",
+      "Large",
+      "Iced",
+      "Americanos"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "recommend",
+      "a",
+      "naturally",
+      "sugarfree",
+      "and",
+      "dairyfree",
+      "beverage",
+      "that",
+      "still",
+      "feels",
+      "indulgent"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Actually",
+      "could",
+      "you",
+      "make",
+      "it",
+      "a",
+      "Medium",
+      "instead",
+      "of",
+      "Large",
+      "I",
+      "think",
+      "that",
+      "will",
+      "be",
+      "the",
+      "perfect",
+      "size",
+      "for",
+      "my",
+      "walk",
+      "and",
+      "I",
+      "don't",
+      "want",
+      "to",
+      "have",
+      "too",
+      "much",
+      "to",
+      "carry"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "try",
+      "it",
+      "Large",
+      "hot",
+      "with",
+      "oat",
+      "milk",
+      "and",
+      "an",
+      "extra",
+      "shot"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Please",
+      "add",
+      "Whipped",
+      "Cream",
+      "to",
+      "my",
+      "Large",
+      "Hot",
+      "Mocha"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "serve",
+      "Iced",
+      "Americano"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Small",
+      "and",
+      "iced"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "B-size",
+      "O",
+      "B-temperature"
+    ]
+  },
+  {
+    "tokens": [
+      "May",
+      "I",
+      "inquire",
+      "about",
+      "the",
+      "cost",
+      "of",
+      "a",
+      "large",
+      "iced",
+      "vanilla",
+      "bean",
+      "mocha",
+      "with",
+      "soy",
+      "milk"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "prefer",
+      "it",
+      "hot",
+      "with",
+      "no",
+      "sugar",
+      "whatsoever"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "need",
+      "to",
+      "cancel",
+      "the",
+      "large",
+      "iced",
+      "mocha",
+      "I",
+      "ordered",
+      "earlier",
+      "today"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hello",
+      "can",
+      "you",
+      "help",
+      "me"
+    ],
+    "intent": "greeting",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cancel",
+      "that",
+      "drink",
+      "please"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'd",
+      "like",
+      "a",
+      "Medium",
+      "Latte"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Hey",
+      "I'm",
+      "ready"
+    ],
+    "intent": "greeting",
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Change",
+      "the",
+      "temperature",
+      "of",
+      "my",
+      "Large",
+      "Latte",
+      "to",
+      "Iced"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "O",
+      "B-temperature"
+    ]
+  },
+  {
+    "tokens": [
+      "First",
+      "could",
+      "you",
+      "switch",
+      "the",
+      "size",
+      "to",
+      "Large",
+      "and",
+      "make",
+      "it",
+      "iced",
+      "instead",
+      "of",
+      "hot"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "elaborate",
+      "on",
+      "your",
+      "artisanal",
+      "coffee",
+      "selections",
+      "that",
+      "emphasize",
+      "subtle",
+      "and",
+      "layered",
+      "flavors"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'd",
+      "like",
+      "to",
+      "place",
+      "an",
+      "order",
+      "for",
+      "a",
+      "Hot",
+      "Cappuccino",
+      "Medium",
+      "size",
+      "with",
+      "whole",
+      "milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "B-drink_name",
+      "B-size",
+      "O",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "changed",
+      "my",
+      "mind",
+      "again",
+      "Cancel",
+      "the",
+      "vanilla",
+      "syrup",
+      "but",
+      "keep",
+      "the",
+      "extra",
+      "shot"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Sounds",
+      "wonderful",
+      "Medium",
+      "hot",
+      "with",
+      "oat",
+      "milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "please",
+      "cancel",
+      "that",
+      "last",
+      "drink",
+      "order",
+      "I'm",
+      "going",
+      "to",
+      "start",
+      "over"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "try",
+      "the",
+      "Flat",
+      "White",
+      "Medium",
+      "hot",
+      "with",
+      "whole",
+      "milk",
+      "and",
+      "no",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-drink_name",
+      "I-drink_name",
+      "B-size",
+      "B-temperature",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Large",
+      "Latte"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Yes",
+      "Almond",
+      "milk",
+      "please"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "B-milk_type",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Remove",
+      "the",
+      "order",
+      "for",
+      "a",
+      "Medium",
+      "Hot",
+      "Oat",
+      "Latte"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "As",
+      "an",
+      "individual",
+      "seeking",
+      "botanical",
+      "serenity",
+      "without",
+      "stimulant",
+      "influence",
+      "might",
+      "you",
+      "thoughtfully",
+      "propose",
+      "a",
+      "hot",
+      "infusion",
+      "that",
+      "artfully",
+      "weaves",
+      "floral",
+      "elegance",
+      "with",
+      "gentle",
+      "herbal",
+      "undertones"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "elucidate",
+      "the",
+      "ingredient",
+      "provenance",
+      "and",
+      "steeping",
+      "methodology",
+      "for",
+      "your",
+      "'Midnight",
+      "Berry",
+      "Herbal",
+      "Infusion'",
+      "I",
+      "prioritize",
+      "organic",
+      "sourcing",
+      "and",
+      "preparation",
+      "integrity"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Forget",
+      "it",
+      "cancel",
+      "both",
+      "drinks"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yes",
+      "could",
+      "you",
+      "add",
+      "a",
+      "splash",
+      "of",
+      "sugarfree",
+      "vanilla",
+      "syrup",
+      "to",
+      "enhance",
+      "the",
+      "flavor"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Please",
+      "add",
+      "a",
+      "light",
+      "drizzle",
+      "of",
+      "honey",
+      "atop",
+      "the",
+      "foam"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yes",
+      "add",
+      "whipped",
+      "cream",
+      "and",
+      "make",
+      "it",
+      "half",
+      "sugar"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Update",
+      "my",
+      "Large",
+      "Hot",
+      "Mocha",
+      "to",
+      "have",
+      "Regular",
+      "Sugar"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Cancel",
+      "that",
+      "drink"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "must",
+      "respectfully",
+      "rescind",
+      "my",
+      "earlier",
+      "directive",
+      "concerning",
+      "a",
+      "Medium",
+      "Hot",
+      "Chai",
+      "Latte",
+      "with",
+      "coconut",
+      "milk",
+      "as",
+      "my",
+      "palate",
+      "has",
+      "pivoted",
+      "toward",
+      "a",
+      "more",
+      "minimalist",
+      "expression",
+      "this",
+      "afternoon"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Add",
+      "Whipped",
+      "Cream",
+      "to",
+      "my",
+      "Large",
+      "Mocha"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "would",
+      "like",
+      "it",
+      "served",
+      "hot",
+      "with",
+      "half",
+      "the",
+      "standard",
+      "sugar"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "Nonfat",
+      "Milk",
+      "for",
+      "lattes"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I'd",
+      "like",
+      "a",
+      "Large",
+      "Iced",
+      "Mocha",
+      "with",
+      "Almond",
+      "Milk",
+      "and",
+      "Less",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Instead",
+      "I",
+      "would",
+      "like",
+      "a",
+      "small",
+      "hot",
+      "flat",
+      "white",
+      "with",
+      "soy",
+      "milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "ordered",
+      "a",
+      "Small",
+      "Hot",
+      "Cappuccino",
+      "but",
+      "I",
+      "want",
+      "to",
+      "change",
+      "it",
+      "to",
+      "a",
+      "Flat",
+      "White"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name",
+      "I-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Make",
+      "it",
+      "a",
+      "Medium",
+      "please"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'd",
+      "like",
+      "two",
+      "drinks",
+      "a",
+      "Small",
+      "Iced",
+      "Latte",
+      "with",
+      "whole",
+      "milk",
+      "and",
+      "half",
+      "sugar",
+      "and",
+      "a",
+      "Medium",
+      "Hot",
+      "Cappuccino",
+      "with",
+      "an",
+      "extra",
+      "shot",
+      "and",
+      "no",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-quantity",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "take",
+      "that",
+      "and",
+      "add",
+      "a",
+      "shot",
+      "of",
+      "vanilla"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-temperature",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "would",
+      "like",
+      "to",
+      "explore",
+      "your",
+      "premium",
+      "espressobased",
+      "beverages",
+      "designed",
+      "for",
+      "discerning",
+      "palates"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "want",
+      "a",
+      "Large",
+      "Iced",
+      "Americano",
+      "with",
+      "Nonfat",
+      "Milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Captivating",
+      "concept",
+      "Prepare",
+      "a",
+      "Medium",
+      "Iced",
+      "rendition",
+      "with",
+      "the",
+      "coconut",
+      "ice",
+      "cream",
+      "base",
+      "toasted",
+      "coconut",
+      "flakes",
+      "and",
+      "omit",
+      "the",
+      "lime",
+      "zest",
+      "for",
+      "purity",
+      "of",
+      "flavor"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Large",
+      "Iced",
+      "Oat",
+      "Latte",
+      "with",
+      "Half",
+      "Sugar",
+      "and",
+      "Whipped",
+      "Cream"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "any",
+      "caffeinefree",
+      "alternatives",
+      "for",
+      "your",
+      "Matcha",
+      "Latte"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name",
+      "I-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Indeed",
+      "I",
+      "am",
+      "now",
+      "intrigued",
+      "by",
+      "the",
+      "prospect",
+      "of",
+      "a",
+      "Medium",
+      "Iced",
+      "Matcha",
+      "Latte",
+      "prepared",
+      "with",
+      "coconut",
+      "milk",
+      "and",
+      "adorned",
+      "with",
+      "a",
+      "minimalist",
+      "matcha",
+      "dusting",
+      "upon",
+      "the",
+      "foam",
+      "surface"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "financial",
+      "implication",
+      "for",
+      "a",
+      "Medium",
+      "Cold",
+      "Brew",
+      "enhanced",
+      "with",
+      "vanilla",
+      "syrup",
+      "and",
+      "a",
+      "delicate",
+      "honey",
+      "drizzle"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "an",
+      "Extra",
+      "Shot"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "extra",
+      "is",
+      "it",
+      "for",
+      "a",
+      "splash",
+      "of",
+      "almond",
+      "milk",
+      "in",
+      "a",
+      "regular",
+      "black",
+      "coffee"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Please",
+      "cancel",
+      "my",
+      "two",
+      "Medium",
+      "Hot",
+      "Americano",
+      "with",
+      "Half",
+      "Sugar"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Give",
+      "me",
+      "a",
+      "Large",
+      "Iced",
+      "Caramel",
+      "Latte"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "Actually",
+      "I'll",
+      "just",
+      "take",
+      "a",
+      "Small",
+      "Black",
+      "Coffee",
+      "instead"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "What's",
+      "a",
+      "popular",
+      "iced",
+      "drink",
+      "here"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Can",
+      "I",
+      "change",
+      "my",
+      "Small",
+      "Hot",
+      "Americano",
+      "to",
+      "have",
+      "Extra",
+      "Shot"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "need",
+      "to",
+      "remove",
+      "the",
+      "Vanilla",
+      "Syrup",
+      "from",
+      "my",
+      "Iced",
+      "Mocha"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "B-temperature",
+      "B-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "take",
+      "that",
+      "with",
+      "half",
+      "sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "ordered",
+      "a",
+      "Small",
+      "Hot",
+      "Chocolate",
+      "but",
+      "can",
+      "I",
+      "upgrade",
+      "it",
+      "to",
+      "Large"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "take",
+      "that",
+      "and",
+      "add",
+      "marshmallows",
+      "and",
+      "whipped",
+      "cream"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Small",
+      "Flat",
+      "White"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name"
+    ]
+  },
+  {
+    "tokens": [
+      "What's",
+      "the",
+      "strongest",
+      "coffee",
+      "you",
+      "have"
+    ],
+    "intent": "recommend",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Place",
+      "an",
+      "order",
+      "for",
+      "a",
+      "Small",
+      "Hot",
+      "Cappuccino",
+      "with",
+      "whole",
+      "milk",
+      "and",
+      "regular",
+      "sweetness"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "want",
+      "a",
+      "Medium",
+      "Hot",
+      "Latte",
+      "with",
+      "Whole",
+      "Milk",
+      "and",
+      "Half",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Two",
+      "Large",
+      "Hot",
+      "Cappuccinos",
+      "with",
+      "Nonfat",
+      "Milk",
+      "and",
+      "Regular",
+      "Sugar"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "How",
+      "much",
+      "is",
+      "a",
+      "Large",
+      "Iced",
+      "Americano",
+      "with",
+      "an",
+      "extra",
+      "shot"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "Please",
+      "add",
+      "an",
+      "extra",
+      "shot",
+      "of",
+      "espresso",
+      "to",
+      "enhance",
+      "flavor",
+      "depth"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Actually",
+      "change",
+      "it",
+      "to",
+      "Large",
+      "too"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "need",
+      "to",
+      "cancel",
+      "my",
+      "Medium",
+      "Hot",
+      "Mocha",
+      "I'm",
+      "not",
+      "feeling",
+      "well"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "would",
+      "be",
+      "thankful",
+      "if",
+      "you",
+      "could",
+      "provide",
+      "the",
+      "price",
+      "of",
+      "a",
+      "medium",
+      "hot",
+      "maple",
+      "latte",
+      "with",
+      "almond",
+      "milk"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "would",
+      "like",
+      "a",
+      "large",
+      "dark",
+      "chocolate",
+      "mocha",
+      "with",
+      "soy",
+      "milk"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-drink_name",
+      "I-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'd",
+      "like",
+      "a",
+      "Small",
+      "Hot",
+      "Mocha",
+      "with",
+      "Nonfat",
+      "Milk",
+      "and",
+      "Whipped",
+      "Cream"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on"
+    ]
+  },
+  {
+    "tokens": [
+      "I",
+      "must",
+      "rescind",
+      "my",
+      "pending",
+      "order",
+      "for",
+      "a",
+      "Small",
+      "Hot",
+      "Americano",
+      "with",
+      "no",
+      "milk",
+      "and",
+      "no",
+      "sugar"
+    ],
+    "intent": "cancel_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness"
+    ]
+  },
+  {
+    "tokens": [
+      "Do",
+      "you",
+      "have",
+      "anything",
+      "with",
+      "Extra",
+      "Shot",
+      "by",
+      "default"
+    ],
+    "intent": "inquire_menu",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Yes",
+      "a",
+      "sprinkle",
+      "of",
+      "cinnamon",
+      "on",
+      "top",
+      "would",
+      "be",
+      "perfect"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Hey",
+      "I'd",
+      "like",
+      "a",
+      "Medium",
+      "Iced",
+      "Latte",
+      "with",
+      "an",
+      "extra",
+      "shot",
+      "and",
+      "a",
+      "pump",
+      "of",
+      "caramel",
+      "but",
+      "no",
+      "sugar",
+      "otherwise"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "O",
+      "B-add_on",
+      "I-add_on",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Actually",
+      "make",
+      "it",
+      "Large",
+      "and",
+      "No",
+      "Sugar",
+      "instead"
+    ],
+    "intent": "modify_order",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "O",
+      "B-sweetness",
+      "I-sweetness",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "I'll",
+      "take",
+      "two",
+      "Small",
+      "Iced",
+      "Americanos",
+      "with",
+      "coconut",
+      "milk",
+      "instead"
+    ],
+    "intent": "order",
+    "slot_labels": [
+      "O",
+      "O",
+      "B-quantity",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "O",
+      "B-milk_type",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "May",
+      "I",
+      "ask",
+      "the",
+      "price",
+      "of",
+      "a",
+      "large",
+      "iced",
+      "hazelnut",
+      "latte",
+      "with",
+      "coconut",
+      "milk"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-size",
+      "B-temperature",
+      "B-drink_name",
+      "I-drink_name",
+      "O",
+      "B-milk_type",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "What's",
+      "the",
+      "price",
+      "difference",
+      "between",
+      "Small",
+      "and",
+      "Large",
+      "Mocha"
+    ],
+    "intent": "inquire_price",
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-drink_name"
+    ]
+  }
+]

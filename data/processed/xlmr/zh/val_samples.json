@@ -1,0 +1,894 @@
+[
+  {
+    "utterance": "小杯热浓缩咖啡加杏仁奶，再加一份浓缩，价格是多少？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我需要取消我四杯南瓜香料拿铁的订单。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "我试试摩卡。大杯，热的，加燕麦奶和鲜奶油。",
+    "intent": "order"
+  },
+  {
+    "utterance": "请加一份浓缩咖啡，让口感更浓郁。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "小杯脏脏抹茶多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我试试薰衣草拿铁。中杯，热的，加燕麦奶，半糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "把我的小杯热拿铁改成少糖。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "推荐你们的畅销饮品。",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "请单独配一小份燕麦奶。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "听起来太棒了。给我做一杯大杯冰饮版本，用燕麦奶，不加糖，一定要加可食用茉莉花瓣装饰，看着更雅致。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要完全无糖，再加一片柠檬提味。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "对于喜欢花香调、口感细腻的咖啡风味的人，你有什么精致的推荐吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "你们有杏仁奶吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "你好。",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "我点了一杯中杯冰拿铁，想把牛奶换成杏仁奶。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "天气比较热，你有什么清爽、无咖啡因、带有草本风味的推荐吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "你们有焦糖口味的饮品吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "麻烦换成大杯吧，我今天需要多一点咖啡因。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "给这杯拿铁加一份淡淡的香草豆。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "麻烦告知一下中杯热布朗黄油拿铁加燕麦奶的价格，谢谢。",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我要一杯双份浓缩咖啡。",
+    "intent": "order"
+  },
+  {
+    "utterance": "大杯热巧克力加鲜奶油多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "你们有哪些口味的糖浆？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "取消我点的中杯美式。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "卡布奇诺可以用燕麦奶做吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "我需要取消我预订的一杯中杯热摩卡，加豆奶、奶油和焦糖淋酱。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "把我的摩卡换成大杯。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "来一杯中杯拿铁吧。",
+    "intent": "order"
+  },
+  {
+    "utterance": "冷萃咖啡和冰美式有什么区别？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "等一下，其中一杯换成中杯。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "先取消吧。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "要的，换成燕麦奶，再加一份浓缩咖啡。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "卡布奇诺多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "好的，那我试试中杯的。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要三杯大杯冰燕麦拿铁，不加糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "这款茶很符合我目前的心境。我要一大杯这款茶，并且特别要求除了它本身植物带来的甜味外，不要添加任何额外的甜味剂。",
+    "intent": "order"
+  },
+  {
+    "utterance": "中杯冷萃咖啡加无糖糖浆，再淋一点蜂蜜，准确价格是多少？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我之前点了一杯中杯热拿铁。麻烦把单份浓缩咖啡改成双份的。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "中杯抹茶拿铁加燕麦奶多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "你们有不含乳制品的选择吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "把我的大杯冰美式换成热的。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要一杯大杯热卡布奇诺，加杏仁奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要这个，热的，半糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "三杯大杯热美式，无糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "拿铁有哪些牛奶可以选？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "我想要一杯大杯咸焦糖摩卡，加椰奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要三杯小杯热摩卡，正常糖加鲜奶油。",
+    "intent": "order"
+  },
+  {
+    "utterance": "请撒一点点香草粉在上面。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "有的，麻烦换成燕麦奶。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "中杯热燕麦拿铁加一份浓缩多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我想要点这杯，不加糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "能推荐一款偏甜但咖啡味又很足的饮品吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "冰的，加杏仁奶。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要冰的，甜度比平时少一点。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "你们卖抹茶类饮品吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "好的，来一杯大杯热的。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要一杯小杯热拿铁，不加糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "给我推荐一款甜一点、冰的饮品，最好加奶油。",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "太好了。我要一杯中杯热拿铁，加燕麦奶和香草糖浆。",
+    "intent": "order"
+  },
+  {
+    "utterance": "一杯小杯冰摩卡加鲜奶油多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我需要取消今天下午早些时候点的那杯大杯冰焦糖拿铁。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "给我的冰摩卡加鲜奶油。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "喜欢甜饮的人你推荐什么？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "请问一杯大杯冰肉桂多乐思拿铁加椰奶多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "为了让这杯咖啡更有仪式感，我还希望在上桌前将柠檬皮直接挤压在浓缩咖啡表面，释放其中的精油，让香气更加丰富。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "你能推荐一款口感醇厚顺滑、没有苦涩味和尖锐酸味的咖啡吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "中杯馥芮白加杏仁奶多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我选经典款。中杯热拿铁，全脂牛奶，正常糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "很抱歉告知，我必须取消之前点的中杯冰卡布奇诺，原本要求加杏仁奶和肉桂顶料的那个。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "这三杯一共多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "热美式加杏仁奶可以加配料吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "冰的，不要加糖。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "请在我的大杯热拿铁里加一份浓缩。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要一杯大杯热卡布奇诺，半糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "其实能再推荐一款别的糕点吗？甜一点的。",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "其实，把牛奶换成杏仁奶，顶部加一点焦糖淋酱。甜度保持正常。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "下午好。作为一个对你们技术最精准的浓缩咖啡感兴趣的顾客，你们咖啡师团队的代表性作品是什么？",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "帮我取消小杯冰美式。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "给燕麦奶那杯加一点香草糖浆，衬托它本身的甜味。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我喜欢丰富香料风味但不喜欢过甜，你们秋季系列里有什么你非常推荐的饮品？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "全部半糖。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "你们有既无乳糖又低脂的牛奶吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "其中一杯换成冰的，不要热的。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我想试试一杯短笛拿铁。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要试一杯中杯热摩卡，加杏仁奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "你好，我想试试浓缩咖啡类饮品，但不喜欢太苦的，有什么推荐？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "我想找下午喝、不含咖啡因的饮品，有推荐吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "考虑到我偏爱纯粹的咖啡风味，我想点一杯小杯冰美式，完全不加任何乳制品或植物奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "能推荐一款热饮加杏仁奶吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "把我小杯冰拿铁的奶改成脱脂奶。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我想找一款让人平静、不含咖啡因的晚间花草茶，有花香，甜味完全来自植物本身。你们会用心组合一款风味协调的饮品吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "推荐一款清淡微甜的饮品，要加燕麦奶的。",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "推荐一款少糖的清爽饮品。",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "小杯。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我可以要一杯中杯热卡布奇诺，加一份浓缩吗？",
+    "intent": "order"
+  },
+  {
+    "utterance": "你好。点单前可以说明一下，你们的茶道级抹茶拿铁和普通抹茶拿铁有什么区别吗？",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "你们有短笛咖啡吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "换成三杯小杯冰美式，加燕麦奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "请问一杯大杯冰肉桂多乐思摩卡加燕麦奶多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "下午好。我是第一次来，想了解一下你们最受欢迎的季节限定款，要那种制作工艺特别精湛的。",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "这个多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "听起来不错，我要一杯中杯的。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我想点一杯大杯冰卡布奇诺，麻烦加一份浓缩咖啡，奶泡少一点。",
+    "intent": "order"
+  },
+  {
+    "utterance": "请问一杯大杯冰榛果摩卡加燕麦奶多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "冰的，加豆奶，半糖。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "修改一下我的大杯冰拿铁，甜度改成正常糖，牛奶换成杏仁奶。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我想点这款饮品。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我需要取消我预定的大杯冰香草拿铁。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "一共多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "请单独配一小份椰奶。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "小杯燕麦拿铁多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "你们菜单上有大杯冰摩卡加脱脂奶吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "我要这个，甜度减半。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要一杯大杯冰燕麦拿铁。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要三杯小杯热拿铁，加脱脂牛奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "请问一杯中杯热咸焦糖拿铁加椰奶多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "要的，甜度减半，再加一份浓缩咖啡。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "你们有摩卡吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "给我推荐一款口感顺滑的咖啡，用全脂牛奶，半糖。",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "小杯热脏柴茶，椰奶，无糖，加一份浓缩咖啡，准确价格是多少？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "换成三杯小杯冰美式，加椰奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "再加鲜奶油。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "要杏仁奶，再加多点奶泡。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "能推荐一款用燕麦奶、味道不太浓的饮品吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "我要三杯饮品：一杯大杯热拿铁全脂牛奶，一杯中杯冰美式燕麦奶半糖，还有一杯小杯热卡布奇诺加一份浓缩。",
+    "intent": "order"
+  },
+  {
+    "utterance": "大杯抹茶拿铁多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我想点一杯中杯这款手冲咖啡。",
+    "intent": "order"
+  },
+  {
+    "utterance": "换成四杯小杯冰美式，加豆奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "你们有秋季限定饮品吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "把我的小杯热摩卡改成冰的。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "把我的摩卡调甜一点。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "你们的拿铁有提供无糖糖浆吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "我要点这款，半糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "小杯冰摩卡，加杏仁奶和奶油多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我试试这个。中杯热拿铁，加香草、燕麦奶，半糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要一杯大杯热美式，无糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "你好！",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "我要一杯小杯冰美式，半糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "三杯小杯冰拿铁，加香草糖浆，半糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "取消我大杯冰拿铁。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "我要一杯大杯的，加燕麦奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "帮我的小杯热美式加一份浓缩咖啡。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "两大杯冰美式多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "能推荐一款天然无糖、无乳制品，但口感又很有满足感的饮品吗？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "其实，能把大杯改成中杯吗？我觉得这个容量刚好适合散步，不想拿太重的东西。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要试试。大杯、热饮，加燕麦奶，再加一份浓缩咖啡。",
+    "intent": "order"
+  },
+  {
+    "utterance": "请在我的大杯热摩卡上加奶油。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "你们有冰美式吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "小杯的，要冰的。",
+    "intent": "order"
+  },
+  {
+    "utterance": "请问一杯大杯冰香草豆摩卡加豆奶多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我要热的，完全不加糖。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我需要取消今天早些时候点的那杯大杯冰摩卡。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "你好，可以帮我吗？",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "请取消这杯。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "我要一杯中杯拿铁。",
+    "intent": "order"
+  },
+  {
+    "utterance": "嘿，我准备好了。",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "把我的大杯拿铁温度换成冰的。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "首先，能把尺寸换成大杯，然后把热饮改成冰饮吗？",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "能详细介绍一下你们主打口感细腻、层次丰富的手工咖啡系列吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "我想点一杯热卡布奇诺，中杯，全脂牛奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我又改主意了，把香草糖浆去掉，浓缩保留。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "听起来很不错。中杯、热饮，加燕麦奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "麻烦取消我上一单，我重新点。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "那我试试馥芮白。中杯，热的，全脂牛奶，不加糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "一杯大杯拿铁多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "有的，要杏仁奶，谢谢。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "取消我点的中杯热燕麦拿铁。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "作为一个追求植物宁静、不想摄入咖啡因的人，您能否用心推荐一款热饮，能巧妙地将花的优雅与柔和的草本基调融合在一起？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "可以说明一下你们‘午夜浆果草本茶’的原料来源和浸泡方式吗？我很看重有机来源与制作品质。",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "算了，两杯都取消。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "要的，能加一点点无糖香草糖浆提提味吗？",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "请在奶泡上轻轻淋一点蜂蜜。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "要的，加鲜奶油，半糖。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "把我的大杯热摩卡甜度改成正常糖。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "取消这杯。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "我需要取消之前点的那杯中杯热椰奶柴拿铁，因为今天下午我更想要简单一点的味道。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "请给我的大杯摩卡加奶油。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要热的，甜度减半。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "你们的拿铁有脱脂牛奶吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "我想要一杯大杯冰摩卡，加杏仁奶，少糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "换成一杯小杯热馥芮白，加豆奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我点了小杯热卡布奇诺，想换成馥芮白。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "请改成中杯。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要两杯饮品：一杯小杯冰拿铁，全脂牛奶，半糖；还有一杯中杯热卡布奇诺，加一份浓缩咖啡，无糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要这个，再加一份香草糖浆。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我想了解你们为挑剔味蕾设计的高端浓缩咖啡饮品。",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "我要一杯大杯冰美式，加脱脂牛奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "概念很吸引人。给我做一杯中杯冰的，基底用椰子冰淇淋，加烤椰片，去掉柠檬皮丝，保持风味纯粹。",
+    "intent": "order"
+  },
+  {
+    "utterance": "一杯大杯冰燕麦拿铁，加半糖和鲜奶油，多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "你们的抹茶拿铁有不含咖啡因的替代品吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "是的。我现在对中杯冰抹茶拿铁很感兴趣，用椰奶制作，并在奶泡表面撒上简约的抹茶粉。",
+    "intent": "order"
+  },
+  {
+    "utterance": "一杯中杯冷萃咖啡，加香草糖浆，再淋上少量蜂蜜，总共多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "多加一份浓缩咖啡多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "普通黑咖啡里加一点杏仁奶需要额外多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "请取消我两杯中杯热美式，半糖。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "给我一杯大杯冰焦糖拿铁。",
+    "intent": "order"
+  },
+  {
+    "utterance": "其实，我换成小杯黑咖啡就好。",
+    "intent": "order"
+  },
+  {
+    "utterance": "这里有什么受欢迎的冰饮？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "我可以把我的小杯热美式加一份浓缩吗？",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "帮我从冰摩卡里去掉香草糖浆。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要这个，甜度减半。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我点了小杯热巧克力，可以升级成大杯吗？",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我要这个，再加棉花糖和鲜奶油。",
+    "intent": "order"
+  },
+  {
+    "utterance": "小杯馥芮白多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "你们最浓的咖啡是什么？",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "点一杯小杯热卡布奇诺，用全脂牛奶，普通甜度。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我要一杯中杯热拿铁，加全脂牛奶，半糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "两杯大杯热卡布奇诺，加脱脂牛奶，正常糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "大杯冰美式多加一份浓缩多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "请多加一份浓缩咖啡，提升风味层次。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "其实，尺寸也改成大杯吧。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "我需要取消我点的中杯热摩卡。我身体不太舒服。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "麻烦告知一下中杯热枫糖拿铁加杏仁奶的价格，谢谢。",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "我要一杯大杯黑巧克力摩卡，加豆奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我想要一杯小杯热摩卡，加脱脂牛奶和鲜奶油。",
+    "intent": "order"
+  },
+  {
+    "utterance": "我必须取消我那个待处理的小杯热美式订单，不要奶，不要糖。",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "你们有默认就加一份浓缩的饮品吗？",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "要的，顶部撒点肉桂粉就完美了。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "你好，我要一杯中杯冰拿铁，加一份浓缩，一泵焦糖，除此之外不加糖。",
+    "intent": "order"
+  },
+  {
+    "utterance": "其实，换成大杯，无糖。",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "换成两杯小杯冰美式，加椰奶。",
+    "intent": "order"
+  },
+  {
+    "utterance": "请问一杯大杯冰榛果拿铁加椰奶多少钱？",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "小杯和大杯摩卡的价格差多少？",
+    "intent": "inquire_price"
+  }
+]

@@ -1,0 +1,894 @@
+[
+  {
+    "utterance": "Could you clarify the pricing for a Small Hot Espresso with almond milk and a single extra shot of espresso?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I need to cancel my four Pumpkin Spice Lattes order.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I'll try the Mocha. Large, hot, with oat milk and whipped cream.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Please add an extra shot of espresso for a richer taste.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much would a Small Dirty Matcha cost?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I'll try the Lavender Latte. Medium, hot, with oat milk and half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Change the sweetness of my Small Hot Latte to Less Sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Recommend your best seller.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Please include a small portion of oat milk served separately.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Exquisite. Prepare a Large Iced version with oat milk, no added sugar, and include the edible jasmine blossom garnish for visual elegance.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I want it fully sugar-free, with a thin slice of lemon for a refreshing touch.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "For someone who enjoys floral and delicate coffee flavors, what would you suggest as an elegant choice?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Do you have Almond Milk?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Hey there.",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "I ordered a Medium Iced Latte, but I want to change the milk to almond.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Given the warm weather, what would you thoughtfully recommend as a revitalizing non-caffeinated alternative with herbal complexity?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Do you have anything with caramel?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Can you make that a Large instead? I need the extra caffeine today.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Add a subtle vanilla bean infusion to the Latte.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I should be grateful if you would inform me of the price for a medium hot brown butter latte with oat milk.",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I'll take a Double Espresso.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a Large Hot Chocolate with whipped cream?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "What flavors of syrup do you have?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Cancel my Medium Americano.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Do you have Cappuccino available with Oat Milk?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I need to cancel my reservation for a Medium Hot Mocha with soy milk, whipped cream, and caramel drizzle.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Change my Mocha to Large.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Maybe a Medium Latte.",
+    "intent": "order"
+  },
+  {
+    "utterance": "What's the difference between a Cold Brew and an Iced Americano?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Wait, make one of them Medium instead.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Cancel it for now.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Yes, use oat milk and add an extra shot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much is a Cappuccino?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Alright, I'll try a Medium one.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I want three Large Iced Oat Latte with No Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "This resonates profoundly with my current disposition. I shall commission a Large iteration of this infusion, expressly requesting the omission of any supplementary sweetening agents beyond its intrinsic botanical sweetness.",
+    "intent": "order"
+  },
+  {
+    "utterance": "What is the precise financial implication for a Medium Cold Brew enhanced with sugar-free syrup and a delicate honey drizzle?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I ordered a Medium Hot Latte earlier. Please make it a double shot instead of a single.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much is a Medium Matcha Latte with oat milk?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Do you have any non-dairy options?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Switch my Large Iced Americano to Hot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'd like a Large Hot Cappuccino with Almond Milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'll take that, hot please, with half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Three Large Hot Americanos with No Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "What milk options are available for Latte?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I would like a large salted caramel mocha with coconut milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'll have three Small Hot Mochas with Regular Sugar and Whipped Cream.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Please add a light dusting of vanilla powder.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Yes, change it to Oat milk please.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "What's the price of a Medium Hot Oat Latte with Extra Shot?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I would like to order this with no sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Could you recommend something sweet but still coffee-forward?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Iced with Almond milk.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I prefer it iced, with less sugar than usual.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you sell Matcha drinks?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Yes, make it Large and hot.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I want a Small Hot Latte with No Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Recommend a sweet and cold drink with Whipped Cream.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Great. I'll have a Medium Hot Latte with oat milk and vanilla syrup.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a Small Iced Mocha with Whipped Cream?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I need to cancel the large iced caramel latte I ordered earlier this afternoon.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Add Whipped Cream to my Iced Mocha.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "What do you recommend for someone who likes sweet drinks?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "May I ask the price of a large iced cinnamon dolce latte with coconut milk?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "To elevate this ritual further, I respectfully request that the lemon twists undergo expression directly over the espresso surface immediately prior to presentation, thereby awakening their essential oils and deepening the aromatic dialogue.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Could you suggest a full-bodied yet smooth coffee that avoids harsh bitterness and sharp acidity?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "How much is a Medium Flat White with almond milk?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I'll go with the classic. Medium Hot Latte with whole milk and regular sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I regret to inform you that I must rescind my earlier request for a Medium Iced Cappuccino with almond milk and cinnamon topping.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "How much would the total be for all three drinks?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Are add-ons available for Hot Americano with Almond Milk?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Iced, and make it no sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Please add Extra Shot to my Large Hot Latte.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I want a Large Hot Cappuccino with Half Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Actually, could you recommend a different pastry? Maybe something sweet?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Actually, switch the milk to almond and add a light caramel drizzle on top. Keep sweetness at regular level.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Good afternoon. As a discerning visitor interested in your most technically precise espresso preparation, what would you highlight as your barista team's signature expression?",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "Cancel my Small Iced Americano.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Enhance the oat milk latte with a subtle vanilla syrup infusion to complement its inherent sweetness profile.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "As someone who appreciates complex spice profiles without overwhelming sweetness, what beverage would you passionately endorse from your autumn collection?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Half sugar for all of them.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you offer any type of milk that's both lactose-free and low-fat?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Make one of them Iced instead of Hot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Let me try a Cortado.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'll try a Medium Hot Mocha with Almond Milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Hi, what would you recommend for someone who wants to try an espresso drink but doesn't like it too bitter?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "I'm looking for a caffeine-free option for the afternoon. Any recommendations?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Given my predilection for unadulterated coffee expressions, I wish to commission a Small Iced Americano utilizing no dairy or alternative milk components whatsoever.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Can you recommend a warm drink with Almond Milk?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Change the milk type of my Small Iced Latte from Whole to Non-fat.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Seeking a calming, non-caffeinated evening infusion with floral notes and subtle sweetness derived solely from botanicals. What would you thoughtfully compose with intentional synergy?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Recommend a light and sweet drink with Oat Milk.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Recommend a refreshing drink with Less Sugar.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Small.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Can I get a Medium Hot Cappuccino with Extra Shot?",
+    "intent": "order"
+  },
+  {
+    "utterance": "Warm greetings. Before proceeding, could you elucidate the distinguishing characteristics of your ceremonial-grade Matcha Latte versus standard preparations?",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "Do you have Cortado?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Instead, I would like three small iced americanos with oat milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "May I inquire about the cost of a large iced cinnamon dolce mocha with oat milk?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "A splendid afternoon. As a first-time visitor, I'd appreciate insight into your most celebrated seasonal creation that showcases exceptional artistry.",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "What's the total for that?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "That sounds nice, I'll get a Medium one.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'm thinking about getting a Large Iced Cappuccino with an extra shot and light foam, please.",
+    "intent": "order"
+  },
+  {
+    "utterance": "May I ask the price of a large iced hazelnut mocha with oat milk?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Iced with Soy milk and half sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Modify my Large Iced Latte to change sweetness to Regular Sugar and milk to Almond.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I would like to place an order for this particular drink.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I need to cancel my pre‑ordered Large Iced Vanilla Latte.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "How much are they in total?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Please include a small portion of coconut milk separately.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much for a Small Oat Latte?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Do you have Large Iced Mocha with Non-fat Milk on the menu?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I'll take that, with half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I want a Large Iced Oat Latte.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'd like three Small Hot Lattes with Non-fat Milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Could you tell me how much a medium hot salted caramel latte with coconut milk costs?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Yes, make it half sugar and add an extra shot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you have Mocha?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Recommend a smooth drink with Whole Milk and Half Sugar.",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "What is the precise financial implication for a Small Hot Dirty Chai prepared with coconut milk, no sugar, and a single extra espresso shot?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Instead, I would like three small iced americanos with coconut milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Add Whipped Cream too.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Almond milk and extra foam.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Could you recommend something with Oat Milk that's not too strong?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "I'd like three drinks: a Large Hot Latte with whole milk, a Medium Iced Americano with oat milk and half sugar, and a Small Hot Cappuccino with an extra shot.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a Large Matcha Latte?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I would like to order a medium serving of this pour‑over coffee.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Instead, I would like four small iced americanos with soy milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Do you have any seasonal drinks for fall?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Make my Small Hot Mocha Iced.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Make my Mocha less sweet.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you offer any sugar-free syrups for your lattes?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I would like to order this with half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a Small Iced Mocha with Almond Milk and Whipped Cream?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I'll try that. Medium Hot Latte with vanilla, oat milk, and half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'll take a Large Hot Americano with No Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Hi there!",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "I'd like a Small Iced Americano with Half Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Three Small Iced Lattes with Vanilla Syrup and Half Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Cancel my Large Iced Latte.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I'll have a Large one with oat milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Add an Extra Shot to my Small Hot Americano.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "How much for two Large Iced Americanos?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Can you recommend a naturally sugar‑free and dairy‑free beverage that still feels indulgent?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Actually, could you make it a Medium instead of Large? I think that will be the perfect size for my walk, and I don't want to have too much to carry.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'll try it. Large, hot, with oat milk and an extra shot.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Please add Whipped Cream to my Large Hot Mocha.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you serve Iced Americano?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Small and iced.",
+    "intent": "order"
+  },
+  {
+    "utterance": "May I inquire about the cost of a large iced vanilla bean mocha with soy milk?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I prefer it hot, with no sugar whatsoever.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I need to cancel the large iced mocha I ordered earlier today.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Hello, can you help me?",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "Cancel that drink, please.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I'd like a Medium Latte.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Hey, I'm ready.",
+    "intent": "greeting"
+  },
+  {
+    "utterance": "Change the temperature of my Large Latte to Iced.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "First, could you switch the size to Large and make it iced instead of hot?",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Could you elaborate on your artisanal coffee selections that emphasize subtle and layered flavors?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I'd like to place an order for a Hot Cappuccino, Medium size with whole milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I changed my mind again. Cancel the vanilla syrup, but keep the extra shot.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Sounds wonderful. Medium, hot, with oat milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Could you please cancel that last drink order? I'm going to start over.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I'll try the Flat White. Medium, hot, with whole milk and no sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a Large Latte?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Yes, Almond milk please.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Remove the order for a Medium Hot Oat Latte.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "As an individual seeking botanical serenity without stimulant influence, might you thoughtfully propose a hot infusion that artfully weaves floral elegance with gentle herbal undertones?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Could you elucidate the ingredient provenance and steeping methodology for your 'Midnight Berry Herbal Infusion'? I prioritize organic sourcing and preparation integrity.",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Forget it, cancel both drinks.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Yes, could you add a splash of sugar-free vanilla syrup to enhance the flavor?",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Please add a light drizzle of honey atop the foam.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Yes, add whipped cream and make it half sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Update my Large Hot Mocha to have Regular Sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Cancel that drink.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I must respectfully rescind my earlier directive concerning a Medium Hot Chai Latte with coconut milk, as my palate has pivoted toward a more minimalist expression this afternoon.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Add Whipped Cream to my Large Mocha.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I would like it served hot, with half the standard sugar.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Do you have Non-fat Milk for lattes?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I'd like a Large Iced Mocha with Almond Milk and Less Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Instead, I would like a small hot flat white with soy milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I ordered a Small Hot Cappuccino, but I want to change it to a Flat White.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Make it a Medium, please.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'd like two drinks: a Small Iced Latte with whole milk and half sugar, and a Medium Hot Cappuccino with an extra shot and no sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'll take that, and add a shot of vanilla.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I would like to explore your premium espresso‑based beverages designed for discerning palates.",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "I want a Large Iced Americano with Non-fat Milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Captivating concept. Prepare a Medium Iced rendition with the coconut ice cream base, toasted coconut flakes, and omit the lime zest for purity of flavor.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a Large Iced Oat Latte with Half Sugar and Whipped Cream?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Do you have any caffeine-free alternatives for your Matcha Latte?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Indeed. I am now intrigued by the prospect of a Medium Iced Matcha Latte prepared with coconut milk and adorned with a minimalist matcha dusting upon the foam surface.",
+    "intent": "order"
+  },
+  {
+    "utterance": "What is the financial implication for a Medium Cold Brew enhanced with vanilla syrup and a delicate honey drizzle?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "How much is an Extra Shot?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "How much extra is it for a splash of almond milk in a regular black coffee?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Please cancel my two Medium Hot Americano with Half Sugar.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Give me a Large Iced Caramel Latte.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Actually, I'll just take a Small Black Coffee instead.",
+    "intent": "order"
+  },
+  {
+    "utterance": "What's a popular iced drink here?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Can I change my Small Hot Americano to have Extra Shot?",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I need to remove the Vanilla Syrup from my Iced Mocha.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'll take that, with half sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I ordered a Small Hot Chocolate, but can I upgrade it to Large?",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'll take that, and add marshmallows and whipped cream.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a Small Flat White?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "What's the strongest coffee you have?",
+    "intent": "recommend"
+  },
+  {
+    "utterance": "Place an order for a Small Hot Cappuccino with whole milk and regular sweetness.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I want a Medium Hot Latte with Whole Milk and Half Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Two Large Hot Cappuccinos with Non-fat Milk and Regular Sugar.",
+    "intent": "order"
+  },
+  {
+    "utterance": "How much is a Large Iced Americano with an extra shot?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "Please add an extra shot of espresso to enhance flavor depth.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Actually, change it to Large too.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I need to cancel my Medium Hot Mocha. I'm not feeling well.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "I would be thankful if you could provide the price of a medium hot maple latte with almond milk.",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "I would like a large dark chocolate mocha with soy milk.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I'd like a Small Hot Mocha with Non-fat Milk and Whipped Cream.",
+    "intent": "order"
+  },
+  {
+    "utterance": "I must rescind my pending order for a Small Hot Americano with no milk and no sugar.",
+    "intent": "cancel_order"
+  },
+  {
+    "utterance": "Do you have anything with Extra Shot by default?",
+    "intent": "inquire_menu"
+  },
+  {
+    "utterance": "Yes, a sprinkle of cinnamon on top would be perfect.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "Hey, I'd like a Medium Iced Latte with an extra shot and a pump of caramel, but no sugar otherwise.",
+    "intent": "order"
+  },
+  {
+    "utterance": "Actually, make it Large and No Sugar instead.",
+    "intent": "modify_order"
+  },
+  {
+    "utterance": "I'll take two Small Iced Americanos with coconut milk instead.",
+    "intent": "order"
+  },
+  {
+    "utterance": "May I ask the price of a large iced hazelnut latte with coconut milk?",
+    "intent": "inquire_price"
+  },
+  {
+    "utterance": "What's the price difference between Small and Large Mocha?",
+    "intent": "inquire_price"
+  }
+]

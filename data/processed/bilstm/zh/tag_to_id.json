@@ -1,0 +1,1 @@
+{"O": 0, "B-drink_name": 1, "I-drink_name": 2, "B-size": 3, "I-size": 4, "B-temperature": 5, "I-temperature": 6, "B-milk_type": 7, "I-milk_type": 8, "B-sweetness": 9, "I-sweetness": 10, "B-add_on": 11, "I-add_on": 12, "B-quantity": 13, "I-quantity": 14}

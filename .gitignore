@@ -1,0 +1,16 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated experiment artifacts (keep directory layout via .gitkeep files)
+artifacts/models/**/*.pt
+artifacts/results/**
+reports/generated/**
+
+# Local tooling
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/

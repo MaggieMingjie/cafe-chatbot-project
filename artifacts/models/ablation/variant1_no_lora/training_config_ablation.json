@@ -1,0 +1,7 @@
+{
+  "base_model": "google/mt5-small",
+  "use_lora": false,
+  "batch_size": 16,
+  "learning_rate": 0.0002,
+  "epochs": 15
+}

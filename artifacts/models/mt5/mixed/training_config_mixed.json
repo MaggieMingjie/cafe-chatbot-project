@@ -1,0 +1,21 @@
+{
+  "data_path": "C:\\Users\\Maggi\\Desktop\\cafe_chatbot_project\\data\\cafe_dialogue_mixed.json",
+  "model_save_path": "C:\\Users\\Maggi\\Desktop\\cafe_chatbot_project\\models",
+  "base_model": "google/mt5-small",
+  "num_slot_labels": 20,
+  "confidence_threshold": 0.7,
+  "batch_size": 16,
+  "learning_rate": 0.0002,
+  "num_epochs": 15,
+  "warmup_steps": 100,
+  "max_length": 128,
+  "joint_loss_lambda": 1.2,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "use_lora": true,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "seed": 42,
+  "test_run": false,
+  "save_final_model": true
+}
